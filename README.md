@@ -24,11 +24,13 @@ ARP spoofing: A hacker sends fake ARP packets that link an attacker's MAC addres
 Boot kali and Windows7 virtual machines.
 In windows 7 give the command arp -a
 ## OUTPUT:
+![1](https://github.com/user-attachments/assets/6745e441-c717-45ff-ac2e-46b2eb5d1ae3)
 
 
 From kali linux issue the command :
 sudo arpspoof -i eth0 -t <target system> <gateway>
 ## OUTPUT:
+![2](https://github.com/user-attachments/assets/24756fb9-723b-4324-ad51-af5535e1ab67)
 
 
  dsniff:
@@ -40,6 +42,7 @@ sudo arpspoof -i eth0 -t <target system> <gateway>
 
 In Metasploit open the ftp console as below. Also you can try other ftp websites ftp.vim.org
 ## OUTPUT:
+![3](https://github.com/user-attachments/assets/5e9e7797-bb83-4832-927d-98d4680ed55d)
 
 
 
@@ -47,10 +50,12 @@ In Metasploit open the ftp console as below. Also you can try other ftp websites
 In Kali issue the following commands:
 sudo dsnifff
 ## OUTPUT:
+![4](https://github.com/user-attachments/assets/cb8e16d1-4a64-437b-929d-d37abe0c1411)
 
 
 
 Invoke the wireshark and examine the various menus  and controls of the tool:
+![5](https://github.com/user-attachments/assets/ae74904c-7602-491e-947c-9b47f988e647)
 
 
 ## RESULT:
